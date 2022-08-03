@@ -1,3 +1,4 @@
+import java.nio.charset.Charset;
 import java.util.Scanner;
 
 public class Basic150 {
@@ -436,9 +437,21 @@ public class Basic150 {
 
     }
 
+    public static void ex40() {
+        System.out.println("List of available character sets: ");
+        for (String str : Charset.availableCharsets().keySet()) {
+            System.out.println(str);
+        }
+    }
+    public static void ex41()
+    {    Scanner sc = new Scanner(System.in);
+        int  ch  = 'Z';
+        System.out.println("The ASCII value of Z is :\n"+ ch);
+    }
+
     public static void main(String[] args) {
 
-        ex39();
+        ex41();
     }
 
 }
