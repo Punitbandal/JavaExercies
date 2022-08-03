@@ -739,7 +739,8 @@ The distance between those points is: 1480.0848451069087 km
 <br>432                                                      
 <br>Total number of the three-digit-number is 24
 <br> Code:
- ```javapublic static void ex39(){
+ ```java
+ public static void ex39(){
         int  amount=0;
         for (int i = 1; i <= 4; i++) {
             for (int j = 1; j <= 4; j++) {
@@ -753,5 +754,55 @@ The distance between those points is: 1480.0848451069087 km
             }
         }
         System.out.println("\nTotal number of the three-digit-number is " + amount);
+    }
+```
+
+40. Write a Java program to list the available character sets in charset objects. Go to the editor
+<br>Expected Output
+
+<br>List of available character sets:                                       
+<br>Big5                                                                    
+<br>Big5-HKSCS                                                              
+<br>CESU-8                                                                  
+<br>EUC-JP                                                                  
+<br>EUC-KR                                                                  
+<br>GB18030                                                                 
+<br>GB2312                                                                  
+<br>GBK                                                                     
+<br>                                                     
+<br>...                                            
+<br>                                                   
+<br>x-SJIS_0213                                                             
+<br>x-UTF-16LE-BOM                                                          
+<br>X-UTF-32BE-BOM                                                          
+<br>X-UTF-32LE-BOM                                                          
+<br>x-windows-50220                                                         
+<br>x-windows-50221                                                         
+<br>x-windows-874                                                           
+<br>x-windows-949                                                           
+<br>x-windows-950                                                           
+<br>x-windows-iso2022jp
+<br> Code:
+ ```java
+ import java.nio.charset.Charset;
+
+ public static void ex40() {
+        System.out.println("List of available character sets: ");
+        for (String str : Charset.availableCharsets().keySet()) {
+            System.out.println(str);
+        }
+    }
+```
+
+41. Write a Java program to print the ascii value of a given character. Go to the editor
+<br>Expected Output
+
+<br>The ASCII value of Z is :90
+<br> Code:
+ ```java
+ public static void ex41()
+    {    Scanner sc = new Scanner(System.in);
+        int  ch  = 'Z';
+        System.out.println("The ASCII value of Z is :\n"+ ch);
     }
 ```
