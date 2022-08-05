@@ -1508,7 +1508,7 @@ Sample Output:
 <br>Sample Output:
 <br>false
     <br>Code:
-    ```java
+```java
      public static void ex76(){
         int[] a={50, -20, 0, 30, 40, 60, 10};
         int[] b={ 45 ,46,50};
@@ -1523,8 +1523,8 @@ Sample Output:
 <br>Array1: [50, -20, 0]                                                   
 <br>Array2: [5, -50, 10]                                                   
 <br>New Array: [50, 10]
-  <br>Code:
-    ```java
+<br>Code:
+ ```java
      public static void ex77() {
         int[] a = {50, -20, 0};
         int[] b = {5, -50, 10};
@@ -1541,11 +1541,9 @@ Sample Output:
  ```
  
  78. Write a Java program to test that a given array of integers of length 2 contains a 4 or a 7. Go to the editor
-
 <br>Sample Output:
 <br>Original Array: [5, 7]                                                 
 <br>true 
-
 <br>code:
 ```java
 public static void ex78() {
@@ -1559,7 +1557,6 @@ public static void ex78() {
 ```
 79. Write a Java program to reverses an array (length 3) of integers in left direction. Go to the editor
 <br>Sample Output:
-
 <br>Original Array: [20, 30, 40]                                           
 <br>reverses Array: [40, 30, 20]
 <br>Code:
@@ -1595,7 +1592,6 @@ public static void ex79v2() {
 <br>Sample Output:
 <br>Original Array: [20, 30, 40]                                           
 <br>Larger value between first and last element: 40 
-
 <br>Code:
 ```java
 public static void ex80() {
@@ -1649,7 +1645,6 @@ public static void ex82() {
 <br>Array1: [1, 3, -5, 4]                                                                                                           
 <br>Array2: [1, 4, -5, -2]                                                 
 <br>Result: 1 12 25 -8
-
 <br>Code:
 ```java
   public static void ex83(){
